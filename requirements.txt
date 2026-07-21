@@ -1,0 +1,27 @@
+# --- Web / API ---
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# --- Orchestration ---
+langgraph>=0.2.0
+langgraph-checkpoint-sqlite>=3.0.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+
+# --- Vector DB ---
+qdrant-client>=1.12.0
+
+# --- Multimodal / Embedding ---
+# CLIP / FashionCLIP 임베딩. 아래 중 실제 사용할 것만 남기세요.
+torch>=2.2.0
+transformers>=4.44.0
+pillow>=10.0.0
+# open-clip-torch>=2.24.0        # open_clip 계열 사용 시
+# fashion-clip>=0.2.2            # patrickjohncyh/fashion-clip 래퍼 사용 시
+
+# --- Utils ---
+httpx>=0.27.0                    # 날씨 API 등 외부 호출
+numpy>=1.26.0

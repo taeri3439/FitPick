@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.python-version
+
+# env
+.env
+
+# LangGraph checkpoints
+*.db
+checkpoints.db
+
+# 데이터셋 / 모델 가중치 (용량 큼 — 커밋 금지)
+data/raw/
+data/processed/
+models/weights/
+*.pt
+*.bin
+*.safetensors
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
